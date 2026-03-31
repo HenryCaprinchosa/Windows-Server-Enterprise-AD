@@ -33,13 +33,16 @@ This project addresses the challenge of decentralized user and device management
 
 ## 📊 Proof of Concept / Testing
 ![ADUC Structure](Documentation/aduc_structure.png)
-  </br>*Active Directory Users and Computers console displaying the mapped organizational structure.*
+</br>*> Active Directory Users and Computers console displaying the mapped organizational structure.*
+
 ![GPO Management](Documentation/gpo_management.png)
-  </br>*Group Policy Management console showing linked security and resource policies.*
+</br>*> Group Policy Management console showing linked security and resource policies.*
+
 ![Blocked Control Panel](Documentation/blocked_control_panel.png)
-  </br>*Windows 11 client side: Standard user receiving and "Access Denied" prompt when attempting to open the Control Panel.*
+</br>*> Windows 11 client side: Standard user receiving and "Access Denied" prompt when attempting to open the Control Panel.*
+
 ![Mapped Drive](Documentation/mapped_drive.png)
-  </br>*Windows 11 client side: HR user successfully receiving the mapped 'H:' drive upon login.*
+</br>*> Windows 11 client side: HR user successfully receiving the mapped 'H:' drive upon login.*
 
 ## 💡 What I Learned
 * Deepened understanding of AD DS architecture and the critical role DNS plays in domain environments.
