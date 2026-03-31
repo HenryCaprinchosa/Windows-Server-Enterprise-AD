@@ -7,3 +7,28 @@
 ![Status](https://img.shields.io/badge/Status-V1.0_Done-green?style=flat-square)
 
 This project addresses the challenge of decentralized user and device management in a corporate environment. By deploying a Windows Server 2025 Domain Controller, it establishes a centralized Active Directory infrastructure with Role-Based Access Control. It provides automated resource provisioning and enforces strict security polices across client workstations, simulating a real-world enterprise IT deployment.
+
+## 🛠️ Technologies
+* Windows Server 2025 (Evaluation)
+* Windows 11 Pro (Evaluation)
+* Active Directory Domain Services
+* Domain Name System
+* Group Policy Management
+* VMware Workstation
+
+## ✨ Features
+
+
+## ⚙️ The Process
+
+
+## 📊 Proof of Concept / Testing
+
+
+## 💡 What I Learned
+
+
+## 🚀 What can be improved
+
+
+## How to run the Project
