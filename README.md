@@ -32,13 +32,13 @@ This project addresses the challenge of decentralized user and device management
 * **Endpoint Integration:** Configured the Windows 11 VM's DNS to poing to the Domain Controller and successfully joined the workstation to the domain to verify policy application.
 
 ## 📊 Proof of Concept / Testing
-* [ADUC Structure](Documentation/aduc_structure.png)
+![ADUC Structure](Documentation/aduc_structure.png)
   </br>*Active Directory Users and Computers console displaying the mapped organizational structure.*
-* [GPO Management](Documentation/gpo_management.png)
+![GPO Management](Documentation/gpo_management.png)
   </br>*Group Policy Management console showing linked security and resource policies.*
-* [Blocked Control Panel](Documentation/blocked_control_panel.png)
+![Blocked Control Panel](Documentation/blocked_control_panel.png)
   </br>*Windows 11 client side: Standard user receiving and "Access Denied" prompt when attempting to open the Control Panel.*
-* [Mapped Drive](Documentation/mapped_drive.png)
+![Mapped Drive](Documentation/mapped_drive.png)
   </br>*Windows 11 client side: HR user successfully receiving the mapped 'H:' drive upon login.*
 
 ## 💡 What I Learned
