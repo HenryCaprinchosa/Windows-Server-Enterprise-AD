@@ -17,10 +17,18 @@ This project addresses the challenge of decentralized user and device management
 * VMware Workstation
 
 ## ✨ Features
-
+* Centralized identity and access management for corporate users.
+* Hierarchical Organizational Unit structure reflecting actual company departments (HT, IT, Accounting).
+* Enforced security baselines (e.g., blocking Control Panel access for standard users).
+* Automated network drive mapping based on departmental group membership.
+* Seamless joining of endpoint devices to the corporate domain.
 
 ## ⚙️ The Process
-
+* **Architecutre Setup:** Configured a static IP for the Windows Server and established a private virtual network to isolate the lab environment.
+* **AD DS & DNS Installation:** Installed the required roles and promoted the server to a Domain Controller, creating the `caprincho-corp.local` forest.
+* **OU & User Provisioning:** Designed the initial OU hierarchy and created standard user accounts, enforcing the "User must change password at next login" security standard.
+* **GPO Deployment:** Created and linked specific Group Policy Objects to restrict system settings globally and map SMB shares exclusively for the HR department.
+* **Endpoint Integration:** Configured the Windows 11 VM's DNS to poing to the Domain Controller and successfully joined the workstation to the domain to verify policy application.
 
 ## 📊 Proof of Concept / Testing
 
